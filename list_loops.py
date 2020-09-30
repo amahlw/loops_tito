@@ -24,8 +24,10 @@ for song in songs:
 
 
     # question 5 
-    # one is printing the length and range with the list  whikle option 1 is printing out everything consist in the list.
-    
+    # one is printing the length and range within the list  while option 1 is printing out everything consist in the list. Over all the output is still the same..
+
+
+#   Q6
 animals = ["lion","shark","camel"]
 
 print(animals)
@@ -39,5 +41,8 @@ del animals[0]
 
 print(animals)
 
-for animal in animals:
-    print(animal)
+# for animal in animals:
+#     print(animal)
+
+for i in range(len(animals)):
+    print(animals[i])
